@@ -5,7 +5,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Wild_Abyss_Loot_Boxes"
     Shell.FlyoutBehavior="Disabled"
-    Title="DnD 5e Random Magic Loot Generator"
+    Title="Wild Abyss Loot Box Generator"
     BackgroundColor="{DynamicResource BackgroundColor}"
     NavigationPage.HasBackButton="False">
 
