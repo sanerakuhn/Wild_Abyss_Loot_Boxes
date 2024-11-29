@@ -1,0 +1,42 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Wild_Abyss_Loot_Boxes"
+             x:Class="Wild_Abyss_Loot_Boxes.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <Color x:Key="BackgroundColor">#1E1E1E</Color>
+            <Color x:Key="TextColor">#FFFFFF</Color>
+            <Color x:Key="ButtonBackgroundColor">#333333</Color>
+            <Color x:Key="ButtonTextColor">#FFFFFF</Color>
+            <Color x:Key="CardBackgroundColor">#2A2A2A</Color>
+            <Color x:Key="SeparatorColor">#444444</Color>
+            <Color x:Key="DisabledTextColor">#808080</Color>
+
+            
+            <Style TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{DynamicResource BackgroundColor}" />
+            </Style>
+
+            <Style TargetType="Shell">
+                <Setter Property="BackgroundColor" Value="{DynamicResource BackgroundColor}" />
+            </Style>
+
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{DynamicResource DefaultTextColor}" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{DynamicResource ButtonBackgroundColor}" />
+                <Setter Property="TextColor" Value="{DynamicResource ButtonTextColor}" />
+                <Setter Property="CornerRadius" Value="10" />
+            </Style>
+
+            <Style TargetType="ListView">
+                <Setter Property="BackgroundColor" Value="{DynamicResource BackgroundColor}" />
+                <Setter Property="SeparatorColor" Value="{DynamicResource SeparatorColor}" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

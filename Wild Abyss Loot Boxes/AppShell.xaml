@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Wild_Abyss_Loot_Boxes.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Wild_Abyss_Loot_Boxes"
+    Shell.FlyoutBehavior="Disabled"
+    Title="DnD 5e Random Magic Loot Generator"
+    BackgroundColor="{DynamicResource BackgroundColor}"
+    NavigationPage.HasBackButton="False">
+
+    
+
+    <ShellContent
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+</Shell>
