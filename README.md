@@ -30,6 +30,10 @@ Getting Started
 3.  Select your desired platform (Android, iOS, Windows).
 4.  Build and run the application using `F5`.
 
+For publishing, <PublishSingleFile>true</PublishSingleFile> and <WindowsPackageType>None</WindowsPackageType> need to be uncommented 
+		and then run dotnet publish -f net8.0-windows10.0.19041.0 -r win10-x64 -c Release to generate a self contained executable.
+		The executable should be located in \bin\Release\net8.0-windows10.0.19041.0\win10-x64\publish
+
 Usage
 -----
 

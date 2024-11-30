@@ -6,7 +6,10 @@
     xmlns:local="clr-namespace:Wild_Abyss_Loot_Boxes"
     Shell.FlyoutBehavior="Disabled"
     Title="Wild Abyss Loot Box Generator"
-    BackgroundColor="{DynamicResource BackgroundColor}"
+    Shell.BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}"
+    ForegroundColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
+    BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}"
+    
     NavigationPage.HasBackButton="False">
 
     

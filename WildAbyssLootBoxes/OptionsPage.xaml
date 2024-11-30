@@ -8,7 +8,7 @@
     </ContentPage.ToolbarItems>
 
     <ScrollView>
-        <Grid Padding="5" RowSpacing="20" BackgroundColor="{DynamicResource BackgroundColor}">
+        <Grid Padding="5" RowSpacing="20" BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
@@ -22,9 +22,11 @@
                     <Label Text="Gold Range"
                            FontSize="20"
                            FontAttributes="Bold"
-                           TextColor="{DynamicResource TextColor}" />
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
                     <ImageButton Source="{AppThemeBinding Light='info_icon_light.png', Dark='info_icon_dark.png'}"
                                  BackgroundColor="Transparent"
+                                 BorderWidth="0"
+                                 BorderColor="Transparent"
                                  WidthRequest="24"
                                  HeightRequest="24"
                                  Clicked="ShowToolTip"
@@ -35,15 +37,17 @@
                               IsChecked="True"
                               CheckedChanged="OnGoldCheckedChanged" />
                     <Label Text="Enable Gold Range"
+                           FontAttributes="Bold"
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Spacing="5" IsEnabled="{Binding Source={x:Reference GoldCheckBox}, Path=IsChecked}">
                     <Label x:Name="lblNumGoldRange"
+                           FontAttributes="Bold"
                            Text="Include between "
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                     <Entry x:Name="MinGoldEntry"
                            Placeholder="Min"
@@ -52,8 +56,9 @@
                            WidthRequest="60"
                            HorizontalTextAlignment="Center" />
                     <Label Text=" and "
+                           FontAttributes="Bold"
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                     <Entry x:Name="MaxGoldEntry"
                            Placeholder="Max"
@@ -62,20 +67,23 @@
                            WidthRequest="60"
                            HorizontalTextAlignment="Center" />
                     <Label x:Name="lblNumGoldRange2"
+                           FontAttributes="Bold"
                            Text=" gold in loot boxes."
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                 </StackLayout>
             </StackLayout>
             <StackLayout Padding="10" Spacing="5" Grid.Row="2">
                 <StackLayout Orientation="Horizontal" Spacing="10">
                     <Label Text="Magic Item Options"
-                           FontSize="20"
                            FontAttributes="Bold"
-                           TextColor="{DynamicResource TextColor}" />
+                           FontSize="20"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
                     <ImageButton Source="{AppThemeBinding Light='info_icon_light.png', Dark='info_icon_dark.png'}"
                                  BackgroundColor="Transparent"
+                                 BorderWidth="0"
+                                 BorderColor="Transparent"
                                  WidthRequest="24"
                                  HeightRequest="24"
                                  Clicked="ShowToolTip"
@@ -86,23 +94,32 @@
                               IsChecked="True"
                               CheckedChanged="OnMagicItemsCheckedChanged" />
                     <Label Text="Enable Magic Items"
+                           FontAttributes="Bold"
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                     <CheckBox x:Name="MagicItemsRangeCheckBox"
                               IsChecked="True"
                               CheckedChanged="OnMagicItemsRangeCheckedChanged" />
                     <Label x:Name="lblMagicItemsRangeCheckBox"
+                           FontAttributes="Bold"
                            Text="Use Range"
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Spacing="5" IsEnabled="{Binding Source={x:Reference MagicItemsCheckBox}, Path=IsChecked}">
                     <Label x:Name="lblNumMagicItems"
+                           FontAttributes="Bold"
                            Text="Include "
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
+                           VerticalOptions="Center" />
+                    <Label x:Name="lblNumMagicItemsBetween"
+                           FontAttributes="Bold"
+                           Text="between "
+                           FontSize="16"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                     <Entry x:Name="MagicItemsEntry"
                            Placeholder="Enter number"
@@ -111,9 +128,10 @@
                            WidthRequest="60"
                            HorizontalTextAlignment="Center" />
                     <Label x:Name="lblNumMagicItemsAnd"
+                           FontAttributes="Bold"
                            Text=" and "
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                     <Entry x:Name="MagicItemsEntryMax"
                            Placeholder="Max"
@@ -123,39 +141,44 @@
                            HorizontalTextAlignment="Center"
                            IsVisible="True" />
                     <Label x:Name="lblNumMagicItems2"
+                           FontAttributes="Bold"
                            Text=" magic item(s) in loot boxes."
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                 </StackLayout>
                 <StackLayout Padding="10" Spacing="5" IsEnabled="{Binding Source={x:Reference MagicItemsCheckBox}, Path=IsChecked}">
                     <Label Text="Include Rarities"
+                           FontAttributes="Bold"
                            FontSize="18"
-                           TextColor="{DynamicResource TextColor}" />
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
                     <StackLayout Orientation="Horizontal" Spacing="10">
                         <CheckBox x:Name="CommonRarityCheckBox"
                                   IsChecked="True"
                                   CheckedChanged="OnRarityCheckedChanged" />
                         <Label x:Name="lblCommonRarityCheckBox"
+                               FontAttributes="Bold"
                                Text="Common"
                                FontSize="16"
-                               TextColor="{DynamicResource TextColor}"
+                               TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                                VerticalOptions="Center" />
                         <CheckBox x:Name="UncommonRarityCheckBox"
                                   IsChecked="True"
                                   CheckedChanged="OnRarityCheckedChanged" />
                         <Label x:Name="lblUncommonRarityCheckBox"
+                               FontAttributes="Bold"
                                Text="Uncommon"
                                FontSize="16"
-                               TextColor="{DynamicResource TextColor}"
+                               TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                                VerticalOptions="Center" />
                         <CheckBox x:Name="RareRarityCheckBox"
                                   IsChecked="True"
                                   CheckedChanged="OnRarityCheckedChanged" />
                         <Label x:Name="lblRareRarityCheckBox"
+                               FontAttributes="Bold"
                                Text="Rare"
                                FontSize="16"
-                               TextColor="{DynamicResource TextColor}"
+                               TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                                VerticalOptions="Center" />
                     </StackLayout>
                     <StackLayout Orientation="Horizontal" Spacing="10">
@@ -163,25 +186,28 @@
                                   IsChecked="True"
                                   CheckedChanged="OnRarityCheckedChanged" />
                         <Label x:Name="lblVeryRareRarityCheckBox"
+                               FontAttributes="Bold"
                                Text="Very Rare"
                                FontSize="16"
-                               TextColor="{DynamicResource TextColor}"
+                               TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                                VerticalOptions="Center" />
                         <CheckBox x:Name="LegendaryRarityCheckBox"
                                   IsChecked="True"
                                   CheckedChanged="OnRarityCheckedChanged" />
                         <Label x:Name="lblLegendaryRarityCheckBox"
+                               FontAttributes="Bold"
                                Text="Legendary"
                                FontSize="16"
-                               TextColor="{DynamicResource TextColor}"
+                               TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                                VerticalOptions="Center" />
                         <CheckBox x:Name="ArtifactRarityCheckBox"
                                   IsChecked="True"
                                   CheckedChanged="OnRarityCheckedChanged" />
                         <Label x:Name="lblArtifactRarityCheckBox"
+                               FontAttributes="Bold"
                                Text="Artifact"
                                FontSize="16"
-                               TextColor="{DynamicResource TextColor}"
+                               TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                                VerticalOptions="Center" />
                     </StackLayout>
                 </StackLayout>
@@ -189,11 +215,13 @@
             <StackLayout Padding="10" Spacing="5" Grid.Row="3">
                 <StackLayout Orientation="Horizontal" Spacing="10">
                     <Label Text="Non-Magic Item Options"
-                           FontSize="20"
                            FontAttributes="Bold"
-                           TextColor="{DynamicResource TextColor}" />
+                           FontSize="20"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
                     <ImageButton Source="{AppThemeBinding Light='info_icon_light.png', Dark='info_icon_dark.png'}"
                                  BackgroundColor="Transparent"
+                                 BorderWidth="0"
+                                 BorderColor="Transparent"
                                  WidthRequest="24"
                                  HeightRequest="24"
                                  Clicked="ShowToolTip"
@@ -204,23 +232,32 @@
                               IsChecked="True"
                               CheckedChanged="OnCommonItemsCheckedChanged" />
                     <Label Text="Enable Non-Magic Items"
+                           FontAttributes="Bold"
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                     <CheckBox x:Name="CommonItemsRangeCheckBox"
                               IsChecked="True"
                               CheckedChanged="OnCommonItemsRangeCheckedChanged" />
                     <Label x:Name="lblCommonItemsRangeCheckBox"
+                           FontAttributes="Bold"
                            Text="Use Range"
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Start" VerticalOptions="Center" Spacing="5" IsEnabled="{Binding Source={x:Reference CommonItemsCheckBox}, Path=IsChecked}">
                     <Label x:Name="lblNumCommonItems"
+                           FontAttributes="Bold"
                            Text="Include "
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
+                           VerticalOptions="Center" />
+                    <Label x:Name="lblNumCommonItemsBetween"
+                           FontAttributes="Bold"
+                           Text="between "
+                           FontSize="16"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                     <Entry x:Name="CommonItemsEntry"
                            Placeholder="Enter number"
@@ -229,9 +266,10 @@
                            WidthRequest="60"
                            HorizontalTextAlignment="Center" />
                     <Label x:Name="lblNumCommonItemsAnd"
+                           FontAttributes="Bold"
                            Text=" and "
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                     <Entry x:Name="CommonItemsEntryMax"
                            Placeholder="Max"
@@ -242,8 +280,9 @@
                            IsVisible="True" />
                     <Label x:Name="lblNumCommonItems2"
                            Text=" non-magical item(s) in loot boxes."
+                           FontAttributes="Bold"
                            FontSize="16"
-                           TextColor="{DynamicResource TextColor}"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            VerticalOptions="Center" />
                 </StackLayout>
             </StackLayout>
@@ -252,9 +291,11 @@
                     <Label Text="Update Loot Table"
                            FontSize="20"
                            FontAttributes="Bold"
-                           TextColor="{DynamicResource TextColor}" />
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
                     <ImageButton Source="{AppThemeBinding Light='info_icon_light.png', Dark='info_icon_dark.png'}"
                                  BackgroundColor="Transparent"
+                                 BorderWidth="0"
+                                 BorderColor="Transparent"
                                  WidthRequest="24"
                                  HeightRequest="24"
                                  Clicked="ShowToolTip"
@@ -270,8 +311,11 @@
                                  Content="Append" />
                 </StackLayout>
                 <Button Text="Select Loot Table File"
+                        FontAttributes="Bold"
                         Clicked="OnMagicItemsFilePickerClicked"
-                        HorizontalOptions="Start" />
+                        HorizontalOptions="Start" 
+                        BackgroundColor="{AppThemeBinding Light={StaticResource Light_ButtonBackgroundColor}, Dark={StaticResource Dark_ButtonBackgroundColor}}"
+                        TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"/>
             </StackLayout>
         </Grid>
     </ScrollView>

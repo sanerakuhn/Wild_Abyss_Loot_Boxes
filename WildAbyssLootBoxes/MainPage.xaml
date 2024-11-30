@@ -1,7 +1,7 @@
 ﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Wild_Abyss_Loot_Boxes.MainPage"
-             BackgroundColor="{DynamicResource BackgroundColor}"
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}"
              NavigationPage.HasBackButton="False">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Options" Clicked="NavigateToOptions" />
@@ -9,7 +9,7 @@
     </ContentPage.ToolbarItems>
 
     <ScrollView>
-        <Grid Padding="20" RowSpacing="20" BackgroundColor="{DynamicResource BackgroundColor}">
+        <Grid Padding="20" RowSpacing="20">
 
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
@@ -29,38 +29,65 @@
                 </Grid.ColumnDefinitions>
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Grid.Row="0" Grid.Column="0">
-                    <Button Text="-" Clicked="DecrementCounter" WidthRequest="50" />
+                    <Button Text="-" 
+                            Clicked="DecrementCounter" 
+                            WidthRequest="50" 
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            BackgroundColor="{AppThemeBinding Light={StaticResource Light_ButtonBackgroundColor}, Dark={StaticResource Dark_ButtonBackgroundColor}}"
+                            TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"/>
                     <Label Text="{Binding ItemCount}" 
                            FontSize="24" 
                            FontAttributes="Bold" 
                            HorizontalOptions="Center" />
-                    <Button Text="+" Clicked="IncrementCounter" WidthRequest="50" />
+                    <Button Text="+" 
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            Clicked="IncrementCounter" 
+                            WidthRequest="50" 
+                            BackgroundColor="{AppThemeBinding Light={StaticResource Light_ButtonBackgroundColor}, Dark={StaticResource Dark_ButtonBackgroundColor}}"
+                            TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"/>
                 </StackLayout>
                 <Label Text="Loot Boxes"
+                       FontAttributes="Bold"
                        FontSize="16"
-                       TextColor="{DynamicResource TextColor}"
+                       TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                        HorizontalOptions="Center"
                        Grid.Row="1" Grid.Column="0" />
 
                 <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Grid.Row="0" Grid.Column="1">
-                    <Button Text="-" Clicked="DecrementPartyLevel" WidthRequest="50" />
+                    <Button Text="-" 
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            Clicked="DecrementPartyLevel" 
+                            WidthRequest="50" 
+                            BackgroundColor="{AppThemeBinding Light={StaticResource Light_ButtonBackgroundColor}, Dark={StaticResource Dark_ButtonBackgroundColor}}"
+                            TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"/>
                     <Label Text="{Binding PartyLevel}" 
                            FontSize="24" 
                            FontAttributes="Bold" 
                            HorizontalOptions="Center" />
-                    <Button Text="+" Clicked="IncrementPartyLevel" WidthRequest="50" />
+                    <Button Text="+" 
+                            FontAttributes="Bold"
+                            FontSize="18"
+                            Clicked="IncrementPartyLevel" 
+                            WidthRequest="50" 
+                            BackgroundColor="{AppThemeBinding Light={StaticResource Light_ButtonBackgroundColor}, Dark={StaticResource Dark_ButtonBackgroundColor}}"
+                            TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"/>
                 </StackLayout>
                 <Label Text="Party Level"
                        FontSize="16"
-                       TextColor="{DynamicResource TextColor}"
+                       FontAttributes="Bold"
+                       TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                        HorizontalOptions="Center"
                        Grid.Row="1" Grid.Column="1" />
             </Grid>
 
             <Button Text="Open"
                     FontSize="20"
-                    BackgroundColor="{DynamicResource ButtonBackgroundColor}"
-                    TextColor="{DynamicResource ButtonTextColor}"
+                    BackgroundColor="{AppThemeBinding Light={StaticResource Light_ButtonBackgroundColor}, Dark={StaticResource Dark_ButtonBackgroundColor}}"
+                    TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
+                    FontAttributes="Bold"
                     CornerRadius="10"
                     HorizontalOptions="Center"
                     VerticalOptions="Center"
@@ -70,16 +97,16 @@
                     Grid.Row="2" />
 
             <ListView x:Name="ResultsListView" 
-                      BackgroundColor="{DynamicResource BackgroundColor}" 
+                      BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}" 
                       Grid.Row="3"
                       Margin="0,20,0,0"
                       HasUnevenRows="True"
-                      SeparatorColor="{DynamicResource SeparatorColor}"
+                      SeparatorColor="{AppThemeBinding Light={StaticResource Light_SeparatorColor}, Dark={StaticResource Dark_SeparatorColor}}"
                       SeparatorVisibility="Default">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Frame BackgroundColor="{DynamicResource CardBackgroundColor}" 
+                            <Frame BackgroundColor="{AppThemeBinding Light={StaticResource Light_CardBackgroundColor}, Dark={StaticResource Dark_CardBackgroundColor}}" 
                                    CornerRadius="10" 
                                    Padding="10" 
                                    Margin="5">

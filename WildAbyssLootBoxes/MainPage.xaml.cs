@@ -318,7 +318,7 @@ namespace Wild_Abyss_Loot_Boxes
         {
             return rarity.ToLower() switch
             {
-                "non-magical" => Color.FromArgb("#1E1E1E"),
+                "non-magical" => Colors.Gray,
                 "common" => Color.FromArgb("#D3D3D3"),
                 "uncommon" => Color.FromArgb("#7CFC00"),
                 "rare" => Color.FromArgb("#00BFFF"),

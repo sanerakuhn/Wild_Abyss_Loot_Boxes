@@ -2,24 +2,24 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Wild_Abyss_Loot_Boxes.EditItemPage"
              xmlns:local="clr-namespace:Wild_Abyss_Loot_Boxes"
-             BackgroundColor="{DynamicResource BackgroundColor}">
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}">
 
     <ScrollView>
         <StackLayout Padding="10" Spacing="10">
-            <Label Text="Edit Item" FontSize="24" FontAttributes="Bold" TextColor="{DynamicResource TextColor}" />
+            <Label Text="Edit Item" FontSize="24" FontAttributes="Bold" TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
 
-            <Label Text="Name" FontSize="16" TextColor="{DynamicResource TextColor}" />
+            <Label Text="Name" FontSize="16" TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
             <Entry Text="{Binding EditableItem.Name}" FontSize="16" />
 
-            <Label Text="Rarity" FontSize="16" TextColor="{DynamicResource TextColor}" />
+            <Label Text="Rarity" FontSize="16" TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
             <Picker  x:Name="pkrRarities" ItemsSource="{Binding Rarities}" SelectedItem="{Binding EditableItem.Rarity}" />
             <Entry  x:Name="txtRarityVaries" Text="varies" FontSize="16" Keyboard="Numeric" IsEnabled="True" />
 
-            <Label Text="Default Quantity" FontSize="16" TextColor="{DynamicResource TextColor}" />
+            <Label Text="Default Quantity" FontSize="16" TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
             <Entry  x:Name="txtQty" Text="{Binding EditableItem.Quantity}" FontSize="16" Keyboard="Numeric" />
             <Entry  x:Name="txtQtyVaries" Text="varies" FontSize="16" Keyboard="Numeric" IsEnabled="True" />
 
-            <Label Text="Variants" FontSize="16" FontAttributes="Bold" TextColor="{DynamicResource TextColor}" />
+            <Label Text="Variants" FontSize="16" FontAttributes="Bold" TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
             <CollectionView ItemsSource="{Binding EditableItem.Variants}" Margin="5">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
@@ -30,14 +30,28 @@
 
                             <Entry Grid.Column="2" Text="{Binding Quantity}" Placeholder="Quantity" Keyboard="Numeric" />
 
-                            <Button Grid.Column="3" Text="Remove" Clicked="RemoveVariant" CommandParameter="{Binding .}" />
+                            <Button Grid.Column="3" 
+                                    Text="Remove" 
+                                    FontAttributes="Bold"
+                                    Clicked="RemoveVariant" 
+                                    CommandParameter="{Binding .}" 
+                                    BackgroundColor="{AppThemeBinding Light={StaticResource Light_ButtonBackgroundColor}, Dark={StaticResource Dark_ButtonBackgroundColor}}"
+                                    TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"/>
                         </Grid>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
-            <Button Text="Add Variant" Clicked="AddVariant" />
-            <Button Text="Save" Clicked="SaveItem" />
+            <Button Text="Add Variant" 
+                    FontAttributes="Bold"
+                    Clicked="AddVariant" 
+                    BackgroundColor="{AppThemeBinding Light={StaticResource Light_ButtonBackgroundColor}, Dark={StaticResource Dark_ButtonBackgroundColor}}"
+                    TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"/>
+            <Button Text="Save" 
+                    FontAttributes="Bold"
+                    Clicked="SaveItem" 
+                    BackgroundColor="{AppThemeBinding Light={StaticResource Light_ButtonBackgroundColor}, Dark={StaticResource Dark_ButtonBackgroundColor}}"
+                    TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"/>
         </StackLayout>
     </ScrollView>
 </ContentPage>

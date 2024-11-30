@@ -150,6 +150,7 @@ namespace Wild_Abyss_Loot_Boxes
         {
             MagicItemsEntryMax.IsVisible = e.Value;
             lblNumMagicItemsAnd.IsVisible = e.Value;
+            lblNumMagicItemsBetween.IsVisible = e.Value;
 
             Preferences.Set("MagicItemsUseRange", e.Value);
         }
@@ -158,6 +159,7 @@ namespace Wild_Abyss_Loot_Boxes
         {
             CommonItemsEntryMax.IsVisible = e.Value;
             lblNumCommonItemsAnd.IsVisible = e.Value;
+            lblNumCommonItemsBetween.IsVisible = e.Value;
 
             Preferences.Set("CommonItemsUseRange", e.Value);
         }
