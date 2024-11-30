@@ -1,0 +1,5114 @@
+[
+  {
+    "name": "Clothes",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Common",
+        "rarity": "non-magical",
+        "quantity": 1
+      },
+      {
+        "name": "Fine",
+        "rarity": "non-magical",
+        "quantity": 1
+      },
+      {
+        "name": "Traveler's",
+        "rarity": "non-magical",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Lantern",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Bullseye",
+        "rarity": "non-magical",
+        "quantity": 1
+      },
+      {
+        "name": "Hooded",
+        "rarity": "non-magical",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Rope",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Hempen (50 feet)",
+        "rarity": "non-magical",
+        "quantity": 1
+      },
+      {
+        "name": "Silk (50 feet)",
+        "rarity": "non-magical",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Backpack",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ball Bearings",
+    "rarity": "non-magical",
+    "quantity": 1000,
+    "variants": null
+  },
+  {
+    "name": "Bedroll",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Blanket",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Block and Tackle",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Book",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bottle, Glass",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bucket",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Candle",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Chain (10 feet)",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Chalk",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Climber's Kit",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cook's Utensils",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Component Pouch",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Crowbar",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Fishing Tackle",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Flask or Tankard",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Grappling Hook",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Hammer",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Hammer, Sledge",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Healer's Kit",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Holy Symbol",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Holy Water (flask)",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Hourglass",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Hunting Trap",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ink (1 ounce bottle)",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ink Pen",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Iron Pot",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Jug",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Pitcher",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ladder (10 feet)",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Lamp",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Lock",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Manacles",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Mess Kit",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Mirror, Steel",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Oil (flask)",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Paper",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Parchment",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Pick, Miner's",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Piton",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Pole (10 feet)",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Shovel",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Soap",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Vial",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Waterskin",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Whetstone",
+    "rarity": "non-magical",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bead of Nourishment",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bead of Refreshment",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Boots of False Tracks",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Candle of the Deep",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Charlatan's Die",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cloak of Billowing",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cloak of Many Fashions",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Clockwork Amulet",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Clothes of Mending",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Dark Shard Amulet",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Dread Helm",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ear Horn of Hearing",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Enduring Spellbook",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ersatz Eye",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Hat of Vermin",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Hat of Wizardry",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Heward's Handy Spice Pouch",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Horn of Silent Alarm",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Instrument of Illusions",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Instrument of Scribing",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Lock of Trickery",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Mystery Key",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Orb of Direction",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Orb of Time",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Perfume of Bwitching",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Pipe of Smoke Monsters",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Pole of Angling",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Pole of Collapsing",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Pot of Awakening",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Climbing",
+    "rarity": "common",
+    "quantity": 4,
+    "variants": null
+  },
+  {
+    "name": "Potion of Healing",
+    "rarity": "common",
+    "quantity": 4,
+    "variants": null
+  },
+  {
+    "name": "Rope of Mending",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ruby of the War Mage",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Shield of Expression",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Adornment",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Birdcalls",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Flowers",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Talking Doll",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Tankard of Sobriety",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Unbreakable Arrow",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Veteran's Cane",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Conducting",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Pyrotechnics",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Scowls",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Smiles",
+    "rarity": "common",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Alchemy Jug",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Amulet of Proof against Detection and Location",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bag of Holding",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bag of Tricks",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Boots of Elvenkind",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Boots of Striding and Springing",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Boots of the Winterlands",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bracers of Archery",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Brooch of Shielding",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Broom of Flying",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cap of Water Breathing",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Circlet of Blasting",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cloak of Elvenkind",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cloak of Protection",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cloak of the Manta Ray",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Decanter of Endless Water",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Deck of Illusions",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Driftglobe",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Dust of Disappearance",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Dust of Dryness",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Dust of Sneezing and Choking",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Elemental Gem",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Eversmoking Bottle",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Eyes of Charming",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Eyes of Minute Seeing",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Eyes of the Eagle",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Gauntlets of Ogre Power",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Gem of Brightness",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Gloves of Missile Snaring",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Gloves of Swimming and Climbing",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Gloves of Thievery",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Goggles of Night",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Hat of Disguise",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Headband of Intellect",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Helm of Comprehending Languages",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Helm of Telepathy",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Immovable Rod",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Javelin of Lightning",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Keoghtom's Ointment",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Lantern of Revealing",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Medallion of Thoughts",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Necklace of Adaptation",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Oil of Slipperiness",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Pearl of Power",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Periapt of Health",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Periapt of Wound Closure",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Philter of Love",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Pipes of Haunting",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Pipes of the Sewers",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Animal Friendship",
+    "rarity": "uncommon",
+    "quantity": 2,
+    "variants": null
+  },
+  {
+    "name": "Potion of Fire Breath",
+    "rarity": "uncommon",
+    "quantity": 2,
+    "variants": null
+  },
+  {
+    "name": "Potion of Greater Healing",
+    "rarity": "uncommon",
+    "quantity": 2,
+    "variants": null
+  },
+  {
+    "name": "Potion of Growth",
+    "rarity": "uncommon",
+    "quantity": 2,
+    "variants": null
+  },
+  {
+    "name": "Potion of Poison",
+    "rarity": "uncommon",
+    "quantity": 2,
+    "variants": null
+  },
+  {
+    "name": "Potion of Resistance",
+    "rarity": "uncommon",
+    "quantity": 2,
+    "variants": null
+  },
+  {
+    "name": "Potion of Water Breathing",
+    "rarity": "uncommon",
+    "quantity": 2,
+    "variants": null
+  },
+  {
+    "name": "Quiver of Ehlonna",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Jumping",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Mind Shielding",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Swimming",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Warmth",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Water Walking",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Robe of Useful Items",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Rope of Climbing",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Saddle of the Cavalier",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Sending Stones",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Sentinel Shield",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Slippers of Spider Climbing",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of the Adder",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of the Python",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Stone of Good Luck - luckstone",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Trident of Fish Command",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Magic Detection",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Magic Missiles",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Secrets",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Web",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wind Fan",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Winged Boots",
+    "rarity": "uncommon",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Amulet of Health",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Arrow-Catching Shield",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bag of Beans",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bead of Force",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Belt of Dwarvenkind",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Berserker Axe",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Boots of Levitation",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Boots of Speed",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bowl of Commanding Water Elementals",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bracers of Defense",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Brazier of Commanding Fire Elementals",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cape of the Mountebank",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Censer of Controlling Air Elementals",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Chime of Opening",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cloak of Displacement",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cloak of the Bat",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cube of Force",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Daern's Instant Fortress",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Dagger of Venom",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Dimensional Shackles",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Elixir of Health",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Elven Chain",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Folding Boat",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Gem of Seeing",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Glamoured Studded Leather",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Helm of Teleportation",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Heward's Handy Haversack",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Horn of Blasting",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Horseshoes of Speed",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Iron Bands of Bilarro",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Mace of Disruption",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Mace of Smiting",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Mace of Terror",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Mantle of Spell Resistance",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Necklace of Fireballs",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Necklace of Prayer Beads",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Oil of Etherealness",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Periapt of Proof against Poison",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Portable Hole",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Clairvoyance",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Diminution",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Gaseous Form",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Heroism",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Invulnerability",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Mind Reading",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Superior Healing",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Quaal's Feather Token",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Animal Influence",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Evasion",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Feather Falling",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Free Action",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Poison Resistance",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Protection",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Resistance",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Spell Storing",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of X-ray Vision",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of the Ram",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Robe of Eyes",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Rod of Rulership",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Rope of Entanglement",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Scroll of Protection",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Shield of Missile Attraction",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Charming",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Healing",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Swarming Insects",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Withering",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of the Woodlands",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Stone of Controlling Earth Elementals",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Sun Blade",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Tentacle Rod",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Binding",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Enemy Detection",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Fear",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Fireballs",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Lightning Bolts",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Paralysis",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Wonder",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wings of Flying",
+    "rarity": "rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Amulet of the Planes",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Animated Shield",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Bag of Devouring",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Candle of Invocation",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Carpet of Flying",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cloak of Arachnida",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Dragon Scale Mail",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Dwarven Plate",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Dwarven Thrower",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Efreeti Bottle",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Helm of Brilliance",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Horseshoes of a Zephyr",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Manual of Bodily Health",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Manual of Gainful Exercise",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Manual of Golems",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Manual of Quickness of Action",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Mirror of Life Trapping",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Nolzur's Marvelous Pigments",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Oathbow",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Oil of Sharpness",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Flying",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Invisibility",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Longevity",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Speed",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Supreme Healing",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Potion of Vitality",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Regeneration",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Shooting Stars",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Telekinesis",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Robe of Scintillating Colors",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Robe of Stars",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Rod of Absorption",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Rod of Alertness",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Rod of Security",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Scimitar of Speed",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Spellguard Shield",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Fire",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Frost",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Power",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Striking",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of Thunder and Lightning",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Tome of Clear Thought",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Tome of Leadership and Influence",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Tome of Understanding",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Polymorph",
+    "rarity": "very rare",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Apparatus of Kwalish",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Blackrazor",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cloak of Invisibility",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Cubic Gate",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Deck of Many Things",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Efreeti Chain",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Hammer of Thunderbolts",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Iron Flask",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Moonblade",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Djinni Summoning",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Elemental Command",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Invisibility",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Spell Turning",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Ring of Three Wishes",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Robe of the Archmagi",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Rod of Lordly Might",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Rod of Resurrection",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Scarab of Protection",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Sovereign Glue",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Sphere of Annihilation",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Staff of the Magi",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Sword of Answering",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Talisman of Pure Good",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Talisman of Ultimate Evil",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Talisman of the Sphere",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Tome of the Stilled Tongue",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Universal Solvent",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Vorpal Sword",
+    "rarity": "legendary",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greatclub",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Handaxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Sickle",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Battleaxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Glaive",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greataxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Halberd",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Wave",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Well of Many Worlds",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Whelm",
+    "rarity": "legendary",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Axe of the Dwarvish Lords",
+    "rarity": "artifact",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Book of Exalted Deeds",
+    "rarity": "artifact",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Book of Vile Darkness",
+    "rarity": "artifact",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Eye of Vecna",
+    "rarity": "artifact",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Hand of Vecna",
+    "rarity": "artifact",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Orb of Dragonkind",
+    "rarity": "artifact",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Sword of Kas",
+    "rarity": "artifact",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Wand of Orcus",
+    "rarity": "artifact",
+    "quantity": 1,
+    "variants": null
+  },
+  {
+    "name": "Adamantine Armor",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Leather",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Hide",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Splint",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Plate",
+        "rarity": "uncommon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Ammunition (+1)",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Arrow",
+        "rarity": "uncommon",
+        "quantity": 10
+      },
+      {
+        "name": "Bolt",
+        "rarity": "uncommon",
+        "quantity": 10
+      },
+      {
+        "name": "Dart",
+        "rarity": "uncommon",
+        "quantity": 10
+      },
+      {
+        "name": "Bullet",
+        "rarity": "uncommon",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "name": "Ammunition (+2)",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Arrow",
+        "rarity": "rare",
+        "quantity": 10
+      },
+      {
+        "name": "Bolt",
+        "rarity": "rare",
+        "quantity": 10
+      },
+      {
+        "name": "Dart",
+        "rarity": "rare",
+        "quantity": 10
+      },
+      {
+        "name": "Bullet",
+        "rarity": "rare",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "name": "Ammunition (+3)",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Arrow",
+        "rarity": "very rare",
+        "quantity": 10
+      },
+      {
+        "name": "Bolt",
+        "rarity": "very rare",
+        "quantity": 10
+      },
+      {
+        "name": "Dart",
+        "rarity": "very rare",
+        "quantity": 10
+      },
+      {
+        "name": "Bullet",
+        "rarity": "very rare",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "name": "Armor (+1)",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Leather Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Hide Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Splint Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Plate Armor",
+        "rarity": "uncommon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Armor (+2)",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded Armor",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Leather Armor",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather Armor",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Hide Armor",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt Armor",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail Armor",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate Armor",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate Armor",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail Armor",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail Armor",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Splint Armor",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Plate Armor",
+        "rarity": "rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Armor (+3)",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Leather Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Hide Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Splint Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Plate Armor",
+        "rarity": "very rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Armor of Gleaming",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Leather",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Hide",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Splint",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Plate",
+        "rarity": "common",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Armor of Invulnerability",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Leather",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Hide",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Splint",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Plate",
+        "rarity": "legendary",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Armor of Resistance",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Leather",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Hide",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Splint",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Plate",
+        "rarity": "rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Armor of Vulnerability",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Leather",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Hide",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Splint",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Plate",
+        "rarity": "rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Arrow of Slaying",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Aberration",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Beast",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Celestial",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Construct",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Dragon",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Elemental",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Fey",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Fiend",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Giant",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Humanoid",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Monstrosity",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Ooze",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Plant",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Undead",
+        "rarity": "very rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Belt of Giant Strength",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Hill Giant",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Stone Giant",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Fire Giant",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Cloud Giant",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Storm Giant",
+        "rarity": "legendary",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Cast-off Armor",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Leather",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Hide",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Splint",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Plate",
+        "rarity": "common",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Crystal Ball",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Crystal Ball",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Crystal Ball of Mind Reading",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Crystal Ball of Telepathy",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Crystal Ball of True Seeing",
+        "rarity": "legendary",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Dancing Sword",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "very rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Defender",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "legendary",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Demon Armor",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Leather",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Hide",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Splint",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Plate",
+        "rarity": "very rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Dragon Slayer",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Figurine of Wondrous Power",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Bronze Griffon",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Ebony Fly",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Golden Lions",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Marble Elephant",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Obsidian Steed",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Onyx Dog",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Serpentine Owl",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Silver Raven",
+        "rarity": "uncommon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Flame Tongue",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Frost Brand",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "very rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Giant Slayer",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Holy Avenger",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "legendary",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Horn of Valhalla",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "silver or brass",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "bronze",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "iron",
+        "rarity": "legendary",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Instrument of the Bards",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Anstruth Harp",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Canaith Mandolin",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Cli lyre",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Doss Lute",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Fochlucan bandore",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Mac-Fuirmidh cittern",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Ollamh harp",
+        "rarity": "legendary",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Ioun Stone",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Absorption",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Agility",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Awareness",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Fortitude",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greater Absorption",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Insight",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Intellect",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Leadership",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Mastery",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Protection",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Regeneration",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Reserve",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Strength",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Sustenance",
+        "rarity": "rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Luck Blade",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "legendary",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Mariner's Armor",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Leather",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Hide",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Splint",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Plate",
+        "rarity": "uncommon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Mithral Armor",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Leather",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Hide",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Splint",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Plate",
+        "rarity": "uncommon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Moon-touched Sword",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "common",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Nine Lives Stealer",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "very rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Plate Armor of Etherealness",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Leather",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Hide",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Splint",
+        "rarity": "legendary",
+        "quantity": 1
+      },
+      {
+        "name": "Plate",
+        "rarity": "legendary",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Potion of Giant Strength",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Hill Giant",
+        "rarity": "uncommon",
+        "quantity": 2
+      },
+      {
+        "name": "Stone Giant",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Fire Giant",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Cloud Giant",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Storm Giant",
+        "rarity": "legendary",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Rod of the Pact Keeper",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "+1",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "+2",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "+3",
+        "rarity": "very rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Shield",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "+1",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "+2",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "+3",
+        "rarity": "very rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Smoldering Armor",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Padded",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Leather",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Studded Leather",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Hide",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Shirt",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Scale Mail",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Breastplate",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Half Plate",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Ring Mail",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Chain Mail",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Splint",
+        "rarity": "common",
+        "quantity": 1
+      },
+      {
+        "name": "Plate",
+        "rarity": "common",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Sword of Life Stealing",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Sword of Sharpness",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "very rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Sword of Vengeance",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Sword of Wounding",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Dagger",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Vicious Weapon",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Club",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Dagger",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greatclub",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Handaxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Javelin",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Light Hammer",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Mace",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Quarterstaff",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Sickle",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Spear",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Light",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Dart",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Shortbow",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Sling",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Battleaxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Flail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Glaive",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greataxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Halberd",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Lance",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Maul",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Morningstar",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Pike",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Trident",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "War Pick",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Warhammer",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Whip",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Blowgun",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Hand",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Heavy",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Longbow",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Net",
+        "rarity": "uncommon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Walloping Ammunition",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Arrow",
+        "rarity": "common",
+        "quantity": 10
+      },
+      {
+        "name": "Bolt",
+        "rarity": "common",
+        "quantity": 10
+      },
+      {
+        "name": "Dart",
+        "rarity": "common",
+        "quantity": 10
+      },
+      {
+        "name": "Bullet",
+        "rarity": "common",
+        "quantity": 10
+      }
+    ]
+  },
+  {
+    "name": "Wand of the War Mage",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "+1",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "+2",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "+3",
+        "rarity": "very rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Weapon (+1)",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Club",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Dagger",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greatclub",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Handaxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Javelin",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Light Hammer",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Mace",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Quarterstaff",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Sickle",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Spear",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Light",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Dart",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Shortbow",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Sling",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Battleaxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Flail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Glaive",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greataxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Halberd",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Lance",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Maul",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Morningstar",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Pike",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Trident",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "War Pick",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Warhammer",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Whip",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Blowgun",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Hand",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Heavy",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Longbow",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Net",
+        "rarity": "uncommon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Weapon (+2)",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Club",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Dagger",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatclub",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Handaxe",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Javelin",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Light Hammer",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Mace",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Quarterstaff",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Sickle",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Spear",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Light",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Dart",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortbow",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Sling",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Battleaxe",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Flail",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Glaive",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greataxe",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Halberd",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Lance",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Maul",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Morningstar",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Pike",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Trident",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "War Pick",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Warhammer",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Whip",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Blowgun",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Hand",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Heavy",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longbow",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "Net",
+        "rarity": "rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Weapon (+3)",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Club",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Dagger",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatclub",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Handaxe",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Javelin",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Light Hammer",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Mace",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Quarterstaff",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Sickle",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Spear",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Light",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Dart",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortbow",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Sling",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Battleaxe",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Flail",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Glaive",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greataxe",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Halberd",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Lance",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Maul",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Morningstar",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Pike",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Trident",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "War Pick",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Warhammer",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Whip",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Blowgun",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Hand",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Heavy",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Longbow",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "Net",
+        "rarity": "very rare",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Weapon of Warning",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "Club",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Dagger",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greatclub",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Handaxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Javelin",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Light Hammer",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Mace",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Quarterstaff",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Sickle",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Spear",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Light",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Dart",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Shortbow",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Sling",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Battleaxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Flail",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Glaive",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greataxe",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Greatsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Halberd",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Lance",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Longsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Maul",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Morningstar",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Pike",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Rapier",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Scimitar",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Shortsword",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Trident",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "War Pick",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Warhammer",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Whip",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Blowgun",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Hand",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Crossbow, Heavy",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Longbow",
+        "rarity": "uncommon",
+        "quantity": 1
+      },
+      {
+        "name": "Net",
+        "rarity": "uncommon",
+        "quantity": 1
+      }
+    ]
+  },
+  {
+    "name": "Spell Scroll",
+    "rarity": "varies",
+    "quantity": "varies",
+    "variants": [
+      {
+        "name": "cantrip",
+        "rarity": "common",
+        "quantity": 4
+      },
+      {
+        "name": "1st",
+        "rarity": "common",
+        "quantity": 4
+      },
+      {
+        "name": "2nd",
+        "rarity": "uncommon",
+        "quantity": 2
+      },
+      {
+        "name": "3rd",
+        "rarity": "uncommon",
+        "quantity": 2
+      },
+      {
+        "name": "4th",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "5th",
+        "rarity": "rare",
+        "quantity": 1
+      },
+      {
+        "name": "6th",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "7th",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "8th",
+        "rarity": "very rare",
+        "quantity": 1
+      },
+      {
+        "name": "9th",
+        "rarity": "legendary",
+        "quantity": 1
+      }
+    ]
+  }
+]

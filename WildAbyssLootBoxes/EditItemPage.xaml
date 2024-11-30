@@ -1,0 +1,43 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wild_Abyss_Loot_Boxes.EditItemPage"
+             xmlns:local="clr-namespace:Wild_Abyss_Loot_Boxes"
+             BackgroundColor="{DynamicResource BackgroundColor}">
+
+    <ScrollView>
+        <StackLayout Padding="10" Spacing="10">
+            <Label Text="Edit Item" FontSize="24" FontAttributes="Bold" TextColor="{DynamicResource TextColor}" />
+
+            <Label Text="Name" FontSize="16" TextColor="{DynamicResource TextColor}" />
+            <Entry Text="{Binding EditableItem.Name}" FontSize="16" />
+
+            <Label Text="Rarity" FontSize="16" TextColor="{DynamicResource TextColor}" />
+            <Picker  x:Name="pkrRarities" ItemsSource="{Binding Rarities}" SelectedItem="{Binding EditableItem.Rarity}" />
+            <Entry  x:Name="txtRarityVaries" Text="varies" FontSize="16" Keyboard="Numeric" IsEnabled="True" />
+
+            <Label Text="Default Quantity" FontSize="16" TextColor="{DynamicResource TextColor}" />
+            <Entry  x:Name="txtQty" Text="{Binding EditableItem.Quantity}" FontSize="16" Keyboard="Numeric" />
+            <Entry  x:Name="txtQtyVaries" Text="varies" FontSize="16" Keyboard="Numeric" IsEnabled="True" />
+
+            <Label Text="Variants" FontSize="16" FontAttributes="Bold" TextColor="{DynamicResource TextColor}" />
+            <CollectionView ItemsSource="{Binding EditableItem.Variants}" Margin="5">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Padding="5" ColumnDefinitions="*,*,*,Auto">
+                            <Entry Grid.Column="0" Text="{Binding Name}" Placeholder="Variant Name" />
+
+                            <Picker Grid.Column="1" ItemsSource="{StaticResource Rarities}" SelectedItem="{Binding Rarity}" />
+
+                            <Entry Grid.Column="2" Text="{Binding Quantity}" Placeholder="Quantity" Keyboard="Numeric" />
+
+                            <Button Grid.Column="3" Text="Remove" Clicked="RemoveVariant" CommandParameter="{Binding .}" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <Button Text="Add Variant" Clicked="AddVariant" />
+            <Button Text="Save" Clicked="SaveItem" />
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
