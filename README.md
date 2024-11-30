@@ -7,6 +7,8 @@ Features
 -   Configurable gold, magic items, and non-magic items.
 -   Adjustable party levels to balance rarity distribution.
 -   Support for custom loot tables in JSON format.
+-   A default loot table containing most D&D 5e items is compiled in the executable, so the application will work out of the box.
+-   Built in GUI loot table editor.
 
 Getting Started
 ---------------
@@ -30,7 +32,7 @@ Getting Started
 3.  Select your desired platform (Android, iOS, Windows).
 4.  Build and run the application using `F5`.
 
-For publishing, <PublishSingleFile>true</PublishSingleFile> and <WindowsPackageType>None</WindowsPackageType> need to be uncommented 
+For publishing, ```<PublishSingleFile>true</PublishSingleFile>``` and ```<WindowsPackageType>None</WindowsPackageType>``` need to be uncommented 
 		and then run dotnet publish -f net8.0-windows10.0.19041.0 -r win10-x64 -c Release to generate a self contained executable.
 		The executable should be located in \bin\Release\net8.0-windows10.0.19041.0\win10-x64\publish
 
