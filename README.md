@@ -13,7 +13,13 @@ Features
 Getting Started
 ---------------
 
-### Prerequisites
+###Pre-Compiled Executable
+- WildAbyssLootBoxes.7z contains both a pre-compiled executable and a sample loot table.
+- The sample loot table is a copy of the default - compiled loot table. The application will work out of the box.
+- The sample loot table is only to demonstrate the formatting in the event that you want to curate your own loot table and update it through the application options page.
+- Loot tables can also be edited from within the application through the GUI editor. 
+
+### Prerequisites for Compiling
 
 -   .NET MAUI environment set up.
 -   Visual Studio 2022 or later.
