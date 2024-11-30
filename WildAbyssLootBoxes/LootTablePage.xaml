@@ -1,7 +1,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Wild_Abyss_Loot_Boxes.LootTablePage"
-             BackgroundColor="{DynamicResource BackgroundColor}">
+             BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Back" Clicked="NavigateToMain" />
@@ -13,53 +13,53 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <StackLayout Padding="10" Spacing="10" BackgroundColor="{DynamicResource BackgroundColor}">
+        <StackLayout Padding="10" Spacing="10" BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}">
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
                 <Label Text="Filter by Rarity" 
                        FontSize="16" 
                        FontAttributes="Bold" 
-                       TextColor="{DynamicResource TextColor}" />
+                       TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
             </StackLayout>
 
             <StackLayout Orientation="Horizontal" Padding="10" Spacing="5">
                 <StackLayout Orientation="Horizontal" Spacing="5">
                     <CheckBox x:Name="NonMagicCheckBox" IsChecked="True" CheckedChanged="OnRarityFilterChanged" />
-                    <Label Text="Non-Magic" VerticalOptions="Center" FontSize="16" TextColor="{DynamicResource TextColor}" />
+                    <Label Text="Non-Magic" VerticalOptions="Center" FontAttributes="Bold" FontSize="16" TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Spacing="5">
                     <CheckBox x:Name="CommonCheckBox" IsChecked="True" CheckedChanged="OnRarityFilterChanged" />
-                    <Label Text="Common" VerticalOptions="Center" FontSize="16"
+                    <Label Text="Common" VerticalOptions="Center" FontAttributes="Bold" FontSize="16"
                            TextColor="{Binding Source='common', Converter={StaticResource RarityToColorConverter}}" />
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Spacing="5">
                     <CheckBox x:Name="UncommonCheckBox" IsChecked="True" CheckedChanged="OnRarityFilterChanged" />
-                    <Label Text="Uncommon" VerticalOptions="Center" FontSize="16"
+                    <Label Text="Uncommon" VerticalOptions="Center" FontAttributes="Bold" FontSize="16"
                            TextColor="{Binding Source='uncommon', Converter={StaticResource RarityToColorConverter}}" />
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Spacing="5">
                     <CheckBox x:Name="RareCheckBox" IsChecked="True" CheckedChanged="OnRarityFilterChanged" />
-                    <Label Text="Rare" VerticalOptions="Center" FontSize="16"
+                    <Label Text="Rare" VerticalOptions="Center" FontAttributes="Bold" FontSize="16"
                            TextColor="{Binding Source='rare', Converter={StaticResource RarityToColorConverter}}" />
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Spacing="5">
                     <CheckBox x:Name="VeryRareCheckBox" IsChecked="True" CheckedChanged="OnRarityFilterChanged" />
-                    <Label Text="Very Rare" VerticalOptions="Center" FontSize="16"
+                    <Label Text="Very Rare" VerticalOptions="Center" FontAttributes="Bold" FontSize="16"
                            TextColor="{Binding Source='very rare', Converter={StaticResource RarityToColorConverter}}" />
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Spacing="5">
                     <CheckBox x:Name="LegendaryCheckBox" IsChecked="True" CheckedChanged="OnRarityFilterChanged" />
-                    <Label Text="Legendary" VerticalOptions="Center" FontSize="16"
+                    <Label Text="Legendary" VerticalOptions="Center" FontAttributes="Bold" FontSize="16"
                            TextColor="{Binding Source='legendary', Converter={StaticResource RarityToColorConverter}}" />
                 </StackLayout>
 
                 <StackLayout Orientation="Horizontal" Spacing="5">
                     <CheckBox x:Name="ArtifactCheckBox" IsChecked="True" CheckedChanged="OnRarityFilterChanged" />
-                    <Label Text="Artifact" VerticalOptions="Center" FontSize="16"
+                    <Label Text="Artifact" VerticalOptions="Center" FontAttributes="Bold" FontSize="16"
                            TextColor="{Binding Source='artifact', Converter={StaticResource RarityToColorConverter}}" />
                 </StackLayout>
                 <StackLayout Orientation="Horizontal" Padding="25">
@@ -68,13 +68,17 @@
                            Placeholder="Search items..."
                            TextChanged="OnSearchBarTextChanged"
                            FontSize="16"
-                           BackgroundColor="{DynamicResource CardBackgroundColor}" />
+                           FontAttributes="Bold"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
+                           BackgroundColor="{AppThemeBinding Light={StaticResource Light_CardBackgroundColor}, Dark={StaticResource Dark_CardBackgroundColor}}" />
                 </StackLayout>
                 <ImageButton Source="{AppThemeBinding Light='delete_icon_light.png', Dark='delete_icon_dark.png'}"
                          HorizontalOptions="EndAndExpand"
                          VerticalOptions="Center"
                          Clicked="DeleteSelectedItems"
                          BackgroundColor="Transparent"
+                         BorderWidth="0"
+                         BorderColor="Transparent"
                          WidthRequest="30"
                          HeightRequest="30" />
             </StackLayout>
@@ -87,7 +91,7 @@
 
             <CollectionView.ItemTemplate>
                 <DataTemplate>
-                    <Frame Padding="10" BackgroundColor="{DynamicResource CardBackgroundColor}" CornerRadius="10">
+                    <Frame Padding="10" BackgroundColor="{AppThemeBinding Light={StaticResource Light_CardBackgroundColor}, Dark={StaticResource Dark_CardBackgroundColor}}" CornerRadius="10">
                         <Frame.GestureRecognizers>
                             <TapGestureRecognizer Tapped="ToggleItemDetails" CommandParameter="{Binding .}" />
                         </Frame.GestureRecognizers>
@@ -101,11 +105,14 @@
                                        VerticalOptions="Center" />
 
                                 <Button Text="Edit" 
+                                        FontAttributes="Bold"
                                         HorizontalOptions="End" 
                                         VerticalOptions="Center" 
                                         Clicked="OnEditButtonClicked" 
                                         CommandParameter="{Binding .}" 
-                                        Grid.Column="1" />
+                                        Grid.Column="1" 
+                                        BackgroundColor="{AppThemeBinding Light={StaticResource Light_ButtonBackgroundColor}, Dark={StaticResource Dark_ButtonBackgroundColor}}"
+                                        TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"/>
 
                                 <CheckBox VerticalOptions="Center" 
                                           HorizontalOptions="End" 
@@ -119,12 +126,12 @@
                                        TextColor="{Binding Rarity, Converter={StaticResource RarityToColorConverter}}" />
                                 <Label Text="{Binding Quantity, StringFormat='Default Quantity: {0}'}" 
                                        FontSize="16" 
-                                       TextColor="{DynamicResource TextColor}" />
+                                       TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
                                 <StackLayout Padding="5" IsVisible="{Binding Variants, Converter={StaticResource NullOrEmptyToBooleanConverter}}">
                                     <Label Text="Variants:" 
                                            FontSize="16" 
                                            FontAttributes="Bold" 
-                                           TextColor="{DynamicResource TextColor}" />
+                                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
                                     <CollectionView ItemsSource="{Binding Variants}" Margin="10">
                                         <CollectionView.ItemTemplate>
                                             <DataTemplate>
@@ -138,7 +145,7 @@
                                                            TextColor="{Binding Rarity, Converter={StaticResource RarityToColorConverter}}" />
                                                     <Label Text="{Binding Quantity, StringFormat='  Default Quantity: {0}'}" 
                                                            FontSize="14" 
-                                                           TextColor="{DynamicResource TextColor}" />
+                                                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
                                                 </StackLayout>
                                             </DataTemplate>
                                         </CollectionView.ItemTemplate>
