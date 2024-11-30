@@ -17,6 +17,7 @@
         <StackLayout  Spacing="10" BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}">
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
                 <Label Text="Filter by Rarity" 
+                       Margin="15,0,0,0"
                        FontSize="16" 
                        FontAttributes="Bold" 
                        TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
