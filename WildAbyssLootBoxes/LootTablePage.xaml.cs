@@ -177,6 +177,19 @@ namespace Wild_Abyss_Loot_Boxes
             }
         }
 
+        private async void AddEditItem(object sender, EventArgs e)
+        {
+            MagicItem itemToEdit = new MagicItem
+            {
+                Name = "New Item",
+                Quantity = 1,
+                Rarity = "non-magical",
+                Variants = null
+            };
+
+            await Navigation.PushAsync(new EditItemPage(itemToEdit));
+        }
+
         private async void NavigateToMain(object sender, EventArgs e)
         {
             MessagingCenter.Unsubscribe<EditItemPage, MagicItem>(this, "ItemUpdated");
