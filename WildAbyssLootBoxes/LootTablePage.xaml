@@ -10,10 +10,11 @@
     <Grid RowSpacing="0" ColumnSpacing="0">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <StackLayout Padding="10" Spacing="10" BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}">
+        <StackLayout  Spacing="10" BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}">
             <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="Center">
                 <Label Text="Filter by Rarity" 
                        FontSize="16" 
@@ -62,9 +63,10 @@
                     <Label Text="Artifact" VerticalOptions="Center" FontAttributes="Bold" FontSize="16"
                            TextColor="{Binding Source='artifact', Converter={StaticResource RarityToColorConverter}}" />
                 </StackLayout>
-                <StackLayout Orientation="Horizontal" Padding="25">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
                     <SearchBar x:Name="ItemSearchBar"
-                           WidthRequest="350"
+                           Margin="25,0,0,0"
+                           HorizontalOptions="FillAndExpand"
                            Placeholder="Search items..."
                            TextChanged="OnSearchBarTextChanged"
                            FontSize="16"
@@ -72,8 +74,18 @@
                            TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"
                            BackgroundColor="{AppThemeBinding Light={StaticResource Light_CardBackgroundColor}, Dark={StaticResource Dark_CardBackgroundColor}}" />
                 </StackLayout>
-                <ImageButton Source="{AppThemeBinding Light='delete_icon_light.png', Dark='delete_icon_dark.png'}"
-                         HorizontalOptions="EndAndExpand"
+            </StackLayout>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Padding="10" Grid.Row="1" Spacing="15">
+            <Button Text="Add New Item" 
+                    HorizontalOptions="FillAndExpand"
+                    FontAttributes="Bold"
+                    Clicked="AddEditItem" 
+                    BackgroundColor="{AppThemeBinding Light={StaticResource Light_ButtonBackgroundColor}, Dark={StaticResource Dark_ButtonBackgroundColor}}"
+                    TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}"/>
+            <ImageButton Source="{AppThemeBinding Light='delete_icon_light.png', Dark='delete_icon_dark.png'}"
+                         Margin="5,0,11,0"
+                         HorizontalOptions="End"
                          VerticalOptions="Center"
                          Clicked="DeleteSelectedItems"
                          BackgroundColor="Transparent"
@@ -81,10 +93,8 @@
                          BorderColor="Transparent"
                          WidthRequest="30"
                          HeightRequest="30" />
-            </StackLayout>
         </StackLayout>
-
-        <CollectionView Grid.Row="1" x:Name="LootTableCollectionView" ItemsSource="{Binding FilteredItems}" Margin="5">
+        <CollectionView Grid.Row="2" x:Name="LootTableCollectionView" ItemsSource="{Binding FilteredItems}" Margin="5">
             <CollectionView.ItemsLayout>
                 <LinearItemsLayout Orientation="Vertical" ItemSpacing="7" />
             </CollectionView.ItemsLayout>
