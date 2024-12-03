@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Collections.ObjectModel;
 
 namespace Wild_Abyss_Loot_Boxes
@@ -89,19 +90,19 @@ namespace Wild_Abyss_Loot_Boxes
         {
             if (Preferences.Get("MinGold", 0) == 0)
             {
-                Preferences.Set("MinGold", 10);
+                Preferences.Set("MinGold", 0);
             }
             if (Preferences.Get("MaxGold", 0) == 0)
             {
-                Preferences.Set("MaxGold", 1000);
+                Preferences.Set("MaxGold", 1);
             }
             if (Preferences.Get("MagicItemsPerSpin", 0) == 0)
             {
-                Preferences.Set("MagicItemsPerSpin", 1);
+                Preferences.Set("MagicItemsPerSpin", 0);
             }
             if (Preferences.Get("CommonItemsPerSpin", 0) == 0)
             {
-                Preferences.Set("CommonItemsPerSpin", 1);
+                Preferences.Set("CommonItemsPerSpin", 0);
             }
             if (Preferences.Get("MagicItemsMaxPerSpin", 0) == 0)
             {
@@ -126,98 +127,140 @@ namespace Wild_Abyss_Loot_Boxes
 
         private void SpinItems(object sender, EventArgs e)
         {
-            LoadItems();
-
-            if (_items == null || !_items.Any())
-            {
-                DisplayAlert("Error", "Item dataset is not loaded. Please check the file.", "OK");
-                return;
-            }
-
-            var random = new Random();
             var results = new List<FormattedString>();
 
-            bool magicItemsEnabled = Preferences.Get("MagicItemsEnabled", false);
-            bool commonItemsEnabled = Preferences.Get("CommonItemsEnabled", false);
-            bool goldEnabled = Preferences.Get("GoldEnabled", false);
-            bool magicItemsUseRange = Preferences.Get("MagicItemsUseRange", false);
-            bool commonItemsUseRange = Preferences.Get("CommonItemsUseRange", false);
+            if (((Preferences.Get("IncludeCommon", false) ||
+                Preferences.Get("IncludeUncommon", false) ||
+                Preferences.Get("IncludeRare", false) ||
+                Preferences.Get("IncludeVeryRare", false) ||
+                Preferences.Get("IncludeLegendary", false) ||
+                Preferences.Get("IncludeArtifact", false)) && 
+                Preferences.Get("MagicItemsEnabled", false)) || 
+                Preferences.Get("CommonItemsEnabled", false) ||
+                Preferences.Get("GoldEnabled", false))
+            {
+                LoadItems();
 
-            int magicItemsMin = Preferences.Get("MagicItemsPerSpin", 1);
-            int magicItemsMax = Preferences.Get("MagicItemsMaxPerSpin", 1);
+                if (_items == null || !_items.Any())
+                {
+                    DisplayAlert("Error", "Item dataset is not loaded. Please check the file.", "OK");
+                    return;
+                }
 
-            int commonItemsMin = Preferences.Get("CommonItemsPerSpin", 1);
-            int commonItemsMax = Preferences.Get("CommonItemsMaxPerSpin", 1);
+                var random = new Random();
 
-            for (int i = 0; i < ItemCount; i++)
+                bool magicItemsEnabled = Preferences.Get("MagicItemsEnabled", false);
+                bool commonItemsEnabled = Preferences.Get("CommonItemsEnabled", false);
+                bool goldEnabled = Preferences.Get("GoldEnabled", false);
+                bool magicItemsUseRange = Preferences.Get("MagicItemsUseRange", false);
+                bool commonItemsUseRange = Preferences.Get("CommonItemsUseRange", false);
+
+                int magicItemsMin = Preferences.Get("MagicItemsPerSpin", 1);
+                int magicItemsMax = Preferences.Get("MagicItemsMaxPerSpin", 1);
+
+                int commonItemsMin = Preferences.Get("CommonItemsPerSpin", 1);
+                int commonItemsMax = Preferences.Get("CommonItemsMaxPerSpin", 1);
+
+                for (int i = 0; i < ItemCount; i++)
+                {
+                    var formattedResult = new FormattedString();
+                    var itemGroups = new Dictionary<string, (int Quantity, string DisplayText, string Rarity)>();
+
+                    if (magicItemsEnabled)
+                    {
+                        int magicItemsCount = magicItemsUseRange
+                            ? random.Next(magicItemsMin, magicItemsMax + 1)
+                            : magicItemsMin;
+
+                        for (int j = 0; j < magicItemsCount; j++)
+                        {
+                            string rarity = GetRarity(random.NextDouble());
+                            if (rarity != null)
+                            {
+                                AddOrUpdateItemGroup(itemGroups, random, rarity);
+                            }
+                        }
+                    }
+
+                    if (commonItemsEnabled)
+                    {
+                        int commonItemsCount = commonItemsUseRange
+                            ? random.Next(commonItemsMin, commonItemsMax + 1)
+                            : commonItemsMin;
+
+                        for (int j = 0; j < commonItemsCount; j++)
+                        {
+                            AddOrUpdateItemGroup(itemGroups, random, "non-magical");
+                        }
+                    }
+
+                    if (goldEnabled)
+                    {
+                        int gold = GenerateRandomValue(_partyLevel);
+                        string goldKey = "Gold";
+                        if (itemGroups.ContainsKey(goldKey))
+                        {
+                            itemGroups[goldKey] = (
+                                itemGroups[goldKey].Quantity + gold,
+                                $"{itemGroups[goldKey].Quantity + gold} GP",
+                                "legendary"
+                            );
+                        }
+                        else if (gold > 0)
+                        {
+                            itemGroups[goldKey] = (gold, $"{gold} GP", "legendary");
+                        }
+                    }
+
+
+
+                    if (itemGroups.Sum(group => group.Value.Quantity) == 0)
+                {
+                        formattedResult = new FormattedString();
+                        formattedResult.Spans.Add(new Span
+                        {
+                            Text = "You get Nothing!",
+                            TextColor = Colors.Red,
+                            FontAttributes = FontAttributes.Bold
+                        });
+                        results.Add(formattedResult);
+                    } else
+                    {
+                        foreach (var group in itemGroups)
+                        {
+                            formattedResult.Spans.Add(new Span
+                            {
+                                Text = group.Value.DisplayText,
+                                TextColor = GetRarityColor(group.Value.Rarity),
+                                FontAttributes = FontAttributes.Bold
+                            });
+                            formattedResult.Spans.Add(new Span { Text = "\n" });
+                        }
+
+                        if (formattedResult.Spans.Count > 0)
+                        {
+                            formattedResult.Spans.RemoveAt(formattedResult.Spans.Count - 1);
+                        }
+
+                        results.Add(formattedResult);
+                    }
+                }
+            }
+            else
             {
                 var formattedResult = new FormattedString();
-                var itemGroups = new Dictionary<string, (int Quantity, string DisplayText, string Rarity)>();
-
-                if (magicItemsEnabled)
+                formattedResult.Spans.Add(new Span
                 {
-                    int magicItemsCount = magicItemsUseRange
-                        ? random.Next(magicItemsMin, magicItemsMax + 1)
-                        : magicItemsMin;
-
-                    for (int j = 0; j < magicItemsCount; j++)
-                    {
-                        string rarity = GetRarity(random.NextDouble());
-                        AddOrUpdateItemGroup(itemGroups, random, rarity);
-                    }
-                }
-
-                if (commonItemsEnabled)
-                {
-                    int commonItemsCount = commonItemsUseRange
-                        ? random.Next(commonItemsMin, commonItemsMax + 1)
-                        : commonItemsMin;
-
-                    for (int j = 0; j < commonItemsCount; j++)
-                    {
-                        AddOrUpdateItemGroup(itemGroups, random, "non-magical");
-                    }
-                }
-
-                if (goldEnabled)
-                {
-                    int gold = GenerateRandomValue(_partyLevel);
-                    string goldKey = "Gold";
-                    if (itemGroups.ContainsKey(goldKey))
-                    {
-                        itemGroups[goldKey] = (
-                            itemGroups[goldKey].Quantity + gold,
-                            $"{itemGroups[goldKey].Quantity + gold} GP",
-                            "legendary"
-                        );
-                    }
-                    else
-                    {
-                        itemGroups[goldKey] = (gold, $"{gold} GP", "legendary");
-                    }
-                }
-
-                foreach (var group in itemGroups)
-                {
-                    formattedResult.Spans.Add(new Span
-                    {
-                        Text = group.Value.DisplayText,
-                        TextColor = GetRarityColor(group.Value.Rarity),
-                        FontAttributes = FontAttributes.Bold
-                    });
-                    formattedResult.Spans.Add(new Span { Text = "\n" });
-                }
-
-                if (formattedResult.Spans.Count > 0)
-                {
-                    formattedResult.Spans.RemoveAt(formattedResult.Spans.Count - 1);
-                }
-
+                    Text = "Nothing to give! Try adjusting your loot settings in the options tab.",
+                    TextColor = Colors.Red,
+                    FontAttributes = FontAttributes.Bold
+                });
                 results.Add(formattedResult);
             }
 
             ResultsListView.ItemsSource = results;
         }
+
 
         private void AddOrUpdateItemGroup(Dictionary<string, (int Quantity, string DisplayText, string Rarity)> itemGroups, Random random, string rarity)
         {
@@ -257,7 +300,7 @@ namespace Wild_Abyss_Loot_Boxes
                     rarity
                 );
             }
-            else
+            else if(quantity > 0)
             {
                 itemGroups[itemKey] = (quantity, $"{quantity}x {itemKey}", rarity);
             }
@@ -311,7 +354,7 @@ namespace Wild_Abyss_Loot_Boxes
                 if (value < cumulative) return rarity.Key;
             }
 
-            return "common";
+            return null;
         }
 
         public static Color GetRarityColor(string rarity)

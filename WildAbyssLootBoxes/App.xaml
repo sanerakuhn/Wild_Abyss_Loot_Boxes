@@ -20,7 +20,6 @@
             <Color x:Key="Light_SeparatorColor">#444444</Color>
             <Color x:Key="Light_DisabledTextColor">#808080</Color>
 
-
             <x:Array Type="{x:Type x:String}" x:Key="Rarities">
                 <x:String>non-magical</x:String>
                 <x:String>common</x:String>
@@ -34,10 +33,6 @@
             <local:RarityToColorConverter x:Key="RarityToColorConverter" />
             <local:NullOrEmptyToBooleanConverter x:Key="NullOrEmptyToBooleanConverter" />
             <local:GreaterThanZeroToBooleanConverter x:Key="GreaterThanZeroToBooleanConverter" />
-
-            <Style TargetType="ContentPage">
-                <Setter Property="BackgroundColor" Value="{DynamicResource BackgroundColor}" />
-            </Style>
 
             <Style TargetType="Shell">
                 <Setter Property="BackgroundColor" Value="{DynamicResource BackgroundColor}" />
