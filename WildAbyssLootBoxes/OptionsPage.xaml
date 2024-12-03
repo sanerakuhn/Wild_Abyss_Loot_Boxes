@@ -7,7 +7,7 @@
         <ToolbarItem Text="Back" Clicked="NavigateToMain" />
     </ContentPage.ToolbarItems>
 
-    <ScrollView>
+    <ScrollView x:Name="MainScrollView">
         <Grid Padding="5" RowSpacing="20" BackgroundColor="{AppThemeBinding Light={StaticResource Light_BackgroundColor}, Dark={StaticResource Dark_BackgroundColor}}">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto" />
@@ -17,6 +17,10 @@
                 <RowDefinition Height="Auto" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
+            <Label Text="Options"
+                           x:Name ="OptionsTitle"
+                           IsVisible="False"
+                           TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
             <StackLayout Padding="10" Spacing="5" Grid.Row="1">
                 <StackLayout Orientation="Horizontal" Spacing="10">
                     <Label Text="Gold Range"
@@ -51,7 +55,7 @@
                            VerticalOptions="Center" />
                     <Entry x:Name="MinGoldEntry"
                            Placeholder="Min"
-                           TextChanged="OnEntryTextChanged"
+                           Unfocused="OnEntryTextUnfocused"
                            Keyboard="Numeric"
                            WidthRequest="60"
                            HorizontalTextAlignment="Center" />
@@ -62,7 +66,7 @@
                            VerticalOptions="Center" />
                     <Entry x:Name="MaxGoldEntry"
                            Placeholder="Max"
-                           TextChanged="OnEntryTextChanged"
+                           Unfocused="OnEntryTextUnfocused"
                            Keyboard="Numeric"
                            WidthRequest="60"
                            HorizontalTextAlignment="Center" />
@@ -123,7 +127,7 @@
                            VerticalOptions="Center" />
                     <Entry x:Name="MagicItemsEntry"
                            Placeholder="Enter number"
-                           TextChanged="OnEntryTextChanged"
+                           Unfocused="OnEntryTextUnfocused"
                            Keyboard="Numeric"
                            WidthRequest="60"
                            HorizontalTextAlignment="Center" />
@@ -135,7 +139,7 @@
                            VerticalOptions="Center" />
                     <Entry x:Name="MagicItemsEntryMax"
                            Placeholder="Max"
-                           TextChanged="OnEntryTextChanged"
+                           Unfocused="OnEntryTextUnfocused"
                            Keyboard="Numeric"
                            WidthRequest="60"
                            HorizontalTextAlignment="Center"
@@ -148,7 +152,8 @@
                            VerticalOptions="Center" />
                 </StackLayout>
                 <StackLayout Padding="10" Spacing="5" IsEnabled="{Binding Source={x:Reference MagicItemsCheckBox}, Path=IsChecked}">
-                    <Label Text="Include Rarities"
+                    <Label x:Name="lblIncludeRarities"
+                           Text="Include Rarities"
                            FontAttributes="Bold"
                            FontSize="18"
                            TextColor="{AppThemeBinding Light={StaticResource Light_TextColor}, Dark={StaticResource Dark_TextColor}}" />
@@ -261,7 +266,7 @@
                            VerticalOptions="Center" />
                     <Entry x:Name="CommonItemsEntry"
                            Placeholder="Enter number"
-                           TextChanged="OnEntryTextChanged"
+                           Unfocused="OnEntryTextUnfocused"
                            Keyboard="Numeric"
                            WidthRequest="60"
                            HorizontalTextAlignment="Center" />
@@ -273,7 +278,7 @@
                            VerticalOptions="Center" />
                     <Entry x:Name="CommonItemsEntryMax"
                            Placeholder="Max"
-                           TextChanged="OnEntryTextChanged"
+                           Unfocused="OnEntryTextUnfocused"
                            Keyboard="Numeric"
                            WidthRequest="60"
                            HorizontalTextAlignment="Center"
